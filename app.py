@@ -37,7 +37,7 @@ def webhook():
 """
 
     # 发送到 Telegram
-    url = f"https://api.telegram.org/bot7924949987:AAENogVoFXJfyi9p3WivYV4yhX9Zw2WT5wQ}/sendMessage"
+    url = "https://api.telegram.org/bot7924949987:AAENogVoFXJfyi9p3WivYV4yhX9Zw2WT5wQ/sendMessage"
     payload = {
         "chat_id": 5366773464,
         "text": message.strip()
@@ -48,3 +48,4 @@ def webhook():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
+
